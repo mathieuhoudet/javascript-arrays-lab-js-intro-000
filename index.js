@@ -10,3 +10,7 @@ function destructivelyAppendKitten(name){
 function destructivelyPrependKitten(name){
   kittens.unshift(name);
 }
+
+function destructiveRemoveLastKitten(){
+  kittens.slice(0, kittens.lenght -1)
+}
